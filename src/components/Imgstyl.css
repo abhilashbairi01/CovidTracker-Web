@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+img{
+    border-radius:50%;
+}
+#main {
+    font-family: 'Trade Winds', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    
+    
+}
+.color{
+    background-color:lightblue;
+}
+#total
+{
+    display:flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.today{
+    text-align:left;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+.toll{
+    font-family: 'Teko', sans-serif;
+     font-weight: bolder;
+     font-size: 2.5vw;
+     color:gray;
+     font-family: 'Montserrat', sans-serif;
+}

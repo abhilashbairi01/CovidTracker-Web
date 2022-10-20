@@ -1,0 +1,131 @@
+ @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap");
+ 
+ #confirmed {
+     text-align: center;
+     width:170px;
+     height: 120px;
+     margin-left: auto;
+     margin-right: auto;
+     font-size:large;
+     margin-top: 50px;
+     font-weight: bolder;
+ }
+ #totally{
+      display:flex;
+      
+ }
+ #totalconfirmed
+ {
+     text-align: center;
+     width:170px;
+     height:120px;
+     font-size: large;
+     margin-top: 50px;
+     font-weight: bolder;  
+     margin-left: auto;
+     margin-right: auto; 
+ }
+ #tot{
+     display:flex;
+ }
+ .conf{
+    background-color:#daedf4
+ }
+ .death{
+      background-color:#FF7F7F;
+ }
+ .rec{
+   background-color:#ade6bb;
+ }
+
+ #second
+ {
+    font-family: 'Montserrat', sans-serif;
+     font-size: 30px;
+     text-align: center;
+ }
+.button{
+  background-color: blue;
+  border: none;
+  color: white;
+  font-family:'Cinzel', serif;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#mob1{
+  display: none;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+ table {
+    border-collapse:collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid black;
+   
+   
+  }
+  #mob{
+    margin-left: 2%;
+    margin-right:2%;
+  }
+  #mob1{
+    margin-left: 2%;
+    margin-right:2%;
+  }
+
+  
+  
+  th, td{
+    /* font-size: 2.5vh; */
+    border:1px solid black;
+    font-family:'Cinzel', serif;
+    border-collapse:collapse; 
+  
+  }
+  td:nth-child(1) {  
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+    
+  }
+  @media only screen and (max-width : 800px){
+    th, td{
+      font-size:0.9vh;
+    }
+  }
+  
+ 
+
+  
+  
+ 
